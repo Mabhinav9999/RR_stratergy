@@ -265,6 +265,14 @@ data/
 └── competition_team_player_mapping.csv
 ```
 
+After cloning the project, create a `data` folder in the project root (at the same level as `src`) if it does not already exist. Copy or extract the six CSV files directly into it; do not put them inside an extra nested folder such as `data/data`. On Windows, you can create the folder from the project root with:
+
+```powershell
+New-Item -ItemType Directory -Force .\data
+```
+
+The `data/` folder is excluded by `.gitignore`, so the datasets are not included when you push or clone the project. Obtain the files separately, and only share or commit them if their license and source allow redistribution.
+
 Data Integrity: Abandoned matches, rain/DLS-affected matches, and no-result matches are excluded where match integrity cannot be preserved.
 
 ---
