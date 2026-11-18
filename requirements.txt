@@ -1,0 +1,8 @@
+pandas
+tabulate
+numpy
+scikit-learn
+lightgbm
+matplotlib
+jupyter
+ipykernel
